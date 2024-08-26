@@ -1,0 +1,80 @@
+* {
+    background-color: #F5E6E8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;; 
+    font-size: 20px;
+}
+
+h1{
+    font-size: 70px;
+    color: #51291E;
+    background-color: #EDB183;
+    text-align: center;
+    padding: 10px;
+    margin:  auto;
+    border-radius: 15px;
+}
+
+img{
+    display: block;
+    margin: 0px auto;
+    border-radius: 10%;
+    margin: 20px auto;
+   border: 15px solid #51291E;
+}
+
+.description{
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 350px;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 10fr 10fr;
+    margin: 10px auto;
+    text-align: center;
+    column-gap: 50px;
+    
+}
+
+
+.body h2{
+    color: #51291E;
+    font-size: 35px;
+    text-align: center;
+    margin:auto;
+}
+
+.ingredients, .procedure{
+    display: inline-block;
+    text-align: left;
+    padding: 30px;
+    margin: 10px 65px;
+    place-self: start center;
+    grid-template-columns: minmax(10px, 1fr) 3fr;
+    border-radius: 30px;
+}
+
+ .ingredients, .ingredients *{
+    background-color: #EDB183;
+    max-width: fit-content;
+    height: fit-content;
+}
+
+.procedure, .procedure *{
+    background-color: #EDB183;
+    max-width: fit-content;
+    height: fit-content;
+}
+
+::marker{
+    color: #51291E;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.final{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
